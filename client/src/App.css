@@ -12,16 +12,10 @@ body {
   background-color: #f4f4f4;
   color: #333;
   margin: 0;
-  padding: 10px;
 }
 
 a {
-  color: #3498db;
   text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 ul {
@@ -54,7 +48,10 @@ h6 {
 p {
   margin: 1em 0;
 }
-
+li {
+  text-decoration: none !important;
+  list-style: none !important;
+}
 footer {
   text-align: center;
   padding: 1em 0;
