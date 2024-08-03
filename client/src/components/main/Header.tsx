@@ -15,13 +15,15 @@ const Header = () => {
             </span>
             <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
               <button type="button" className="text-black p-2">
-                icon
+                <i className="fa-solid fa-magnifying-glass"></i>
               </button>
               <button type="button" className="text-black p-2">
-                icon
+                <i className="fa-solid fa-basket-shopping relative">
+                  <span className="counter">2</span>
+                </i>
               </button>
               <button type="button" className="text-black p-2">
-                icon
+                <i className="fa-regular fa-user"></i>
               </button>
               <button
                 data-collapse-toggle="navbar-sticky"
@@ -54,22 +56,37 @@ const Header = () => {
             >
               <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium bg-transparent md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0">
                 <li>
-                  <Link to={'/'} className="block py-2 px-3 text-black">
+                  <Link
+                    to={'/'}
+                    className="block py-2 px-3 text-black text-md uppercase"
+                  >
                     Home
                   </Link>
                 </li>
+                <li className="block py-2 px-1 text-black">•</li>
                 <li>
-                  <Link to={'/'} className="block py-2 px-3 text-black">
+                  <Link
+                    to={'/'}
+                    className="block py-2 px-3 text-black uppercase"
+                  >
                     About
                   </Link>
                 </li>
+                <li className="block py-2 px-1 text-black">•</li>
                 <li>
-                  <Link to={'/'} className="block py-2 px-3 text-black">
+                  <Link
+                    to={'/'}
+                    className="block py-2 px-3 text-black uppercase"
+                  >
                     Services
                   </Link>
                 </li>
+                <li className="block py-2 px-1 text-black">•</li>
                 <li>
-                  <Link to={'/'} className="block py-2 px-3 text-black">
+                  <Link
+                    to={'/'}
+                    className="block py-2 px-3 text-black uppercase"
+                  >
                     Contact
                   </Link>
                 </li>

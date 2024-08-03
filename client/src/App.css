@@ -1,4 +1,6 @@
 /* GLOBAL CSS */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +14,7 @@ body {
   background-color: #f4f4f4;
   color: #333;
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -25,6 +28,9 @@ ul {
 img {
   max-width: 100%;
   height: auto;
+}
+span {
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Container */
@@ -51,6 +57,7 @@ p {
 li {
   text-decoration: none !important;
   list-style: none !important;
+  font-family: 'Montserrat', sans-serif;
 }
 footer {
   text-align: center;
@@ -60,4 +67,41 @@ footer {
   position: fixed;
   width: 100%;
   bottom: 0;
+}
+/* HEADER */
+.counter {
+  background-color: #e74c3c;
+  color: #fff;
+  font-size: 0.75rem;
+  padding: 0.15rem 0.3rem;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* BANNER */
+.h1-banner {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.5rem;
+  letter-spacing: 3px;
+}
+.h2-banner {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.8rem;
+  letter-spacing: 1.5px;
+}
+.text-BebasNeue {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+  color: black;
+  letter-spacing: 0.8px;
 }
