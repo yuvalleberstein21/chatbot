@@ -9,8 +9,8 @@ const BannerProducts = () => {
             the way things <br />
             get made.
           </h1>
-          <p className="border border-gray-900 w-full"></p>
-          <div className="flex justify-between w-full mx-auto p-7">
+          <p className="border border-gray-800 w-full"></p>
+          <div className="flex justify-between w-full mx-auto p-7 md:mt-20 md:py-10">
             <div>
               <h2 className="uppercase text-black text-lg font-medium">
                 <i className="fa-solid fa-globe m-2 text-white"></i>
@@ -22,7 +22,6 @@ const BannerProducts = () => {
                 veniam. Tenetur.
               </span>
             </div>
-
             <div>
               <h2 className="uppercase text-black text-lg font-medium">
                 <i className="fa-solid fa-earth-europe m-2 text-white"></i>

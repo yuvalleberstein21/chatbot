@@ -12,11 +12,11 @@ const BannerPage = () => {
           className="w-full h-full object-cover rounded-lg bg-center"
         />
         <div className="absolute flex justify-center gap-5 bottom-5 right-10 left-10">
-          <button className="uppercase bg-gray-100 text-md text-black rounded-full p-1 items-center w-1/2">
+          <button className="uppercase bg-gray-100 font-medium text-md text-black rounded-full p-1 items-center w-1/2">
             Learn more
             <i className="fa-solid fa-arrow-down m-2"></i>
           </button>
-          <button className="uppercase w-1/2 text-md text-white gap-5 items-center bg-black bg-opacity-60 rounded-full p-1">
+          <button className="uppercase w-1/2 text-md font-medium text-white gap-5 items-center bg-black bg-opacity-60 rounded-full p-1">
             contact us
             <i className="fa-regular fa-envelope items-end m-2"></i>
           </button>
